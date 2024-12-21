@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "89ab6d449e167a212f302f22efb12447",
+    "packages": [
+        {
+            "name": "mkrawczyk/funquery",
+            "version": "v1.14.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matrix0123456789/fun-query.git",
+                "reference": "9785476b03190df06dbb053b23b9e982524e35e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matrix0123456789/fun-query/zipball/9785476b03190df06dbb053b23b9e982524e35e9",
+                "reference": "9785476b03190df06dbb053b23b9e982524e35e9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.4.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.92",
+                "phpunit/phpunit": "^9.6.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MKrawczyk\\FunQuery\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mateusz Krawczyk"
+                }
+            ],
+            "description": "Functional programming library for PHP",
+            "keywords": [
+                "collection",
+                "filter",
+                "functional",
+                "functional programming",
+                "iterator",
+                "lazy evaluation",
+                "library",
+                "map",
+                "php",
+                "redcue",
+                "utility"
+            ],
+            "support": {
+                "issues": "https://github.com/matrix0123456789/fun-query/issues",
+                "source": "https://github.com/matrix0123456789/fun-query/tree/v1.14.4"
+            },
+            "time": "2024-10-03T14:25:09+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "mkrawczyk/internationalization",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mkrawczyk\\Internationalization\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MateuszKrawczyk",
+            "email": "mateuszkrawczyk1996@gmail.com"
+        }
+    ],
+    "require": {
+        "mkrawczyk/funquery": "^1.14"
+    }
+}
