@@ -7,10 +7,12 @@ namespace Mkrawczyk\Internationalization;
 class Translator
 {
     public static Translator $default;
+    private TextsRepository $repository;
     private LanguagesHierarchy $languageHierarchy;
 
-    public function __construct(LanguagesHierarchy $languagesHierarchy)
+    public function __construct(TextsRepository $repository, LanguagesHierarchy $languagesHierarchy)
     {
+        $this->repository = $repository;
         $this->languageHierarchy = $languagesHierarchy;
     }
 
@@ -20,7 +22,7 @@ class Translator
     public function translate(string $q): I18nValue
     {
         $path = explode('.', $q);
-        $node = TextsRepository::getRootNode();
+        $node = $this->repository->getRootNode();
         foreach ($path as $nodeName) {
             $node = $node->getChild($nodeName);
         }
