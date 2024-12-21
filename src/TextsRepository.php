@@ -10,8 +10,7 @@ class TextsRepository
 
     public function getRootNode(): I18nNode
     {
-        self::loadIfNeeded();
-        return self::$root;
+        return $this->root;
     }
 
 
